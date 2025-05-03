@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Environment
+.env
+.venv/
+env/
+venv/
+*.env
+
+# VS Code
+.vscode/
+
+# Migrations
+migrations/__pycache__/
+migrations/versions/*.pyc
+
+# System
+.DS_Store
+Thumbs.db
+
+# Flask cache
+instance/
+*.db
+
+# Logs
+*.log
+
+# Static-generated audio
+/static/*.mp3
